@@ -14,7 +14,9 @@ Basics of laravel
     /resources/views/
 -----------------------------------------------------------------
 # API
-
+# Hiturl
+     $siteURL="https://site url/";
+     $siteURL/api/store/barcodefetch/
 # Routes:
      /routes/
     ```
