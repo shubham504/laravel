@@ -3,7 +3,17 @@ Basics of laravel
 
 # Routes:
      /routes/
-     
+    1) Route::get('/user/{id}', function ($id) {
+         return 'User '.$id;
+     });
+
+    2) Route::get('/user/{name}', function ($name) {
+         return 'test';
+     })->where('name', '[A-Za-z]+');
+
+    3) Route::get('/user/{id}/{name}', function ($id, $name) {
+        return 'test';
+     })->where(['id' => '[0-9]+', 'name' => '[a-z]+']); 
 # Controler path:
      /app/Http/Controllers/
     
