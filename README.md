@@ -19,6 +19,12 @@ Basics of laravel
 
 # Controler path:
      /app/Http/Controllers/
+```
+use DB;
+$users = DB::table('users')->get();
+$users = DB::table('users')->where('email', '=', $request['email'])->get();
+$users = DB::table('users')->where('email', '=', $request['email'])->get();
+```
     
 # Model path: 
     /app/
