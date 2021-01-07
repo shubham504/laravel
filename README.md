@@ -74,4 +74,16 @@ $users = DB::table('users')->where('email', '=', $request['email'])->get();
          }
      }
      ```
-     
+   # Flash message
+```
+# controler:
+     return redirect()->back()->with('message-success','Password changed!');
+# blade template
+     @if(session()->has('message-success'))
+         <div class="alert alert-success">
+             {{ session()->get('message-success') }}
+         </div>
+     @endif
+```
+
+
