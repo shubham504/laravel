@@ -86,4 +86,10 @@ $users = DB::table('users')->where('email', '=', $request['email'])->get();
      @endif
 ```
 
+  # Encript and decript
+```
+     $encryptVar = Crypt::encrypt($p_id); 
+   
+     $decryptVar = Crypt::decrypt($id);
+```
 
