@@ -106,8 +106,7 @@ Laravel Sanctum provides a featherweight authentication system for SPAs (single 
 
 
 
-
-## Getting Started
+------------------------------------------------------------------------
 ### Step 1: setup database in .env file
 
 ```` 
