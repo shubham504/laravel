@@ -269,5 +269,5 @@ Route::group(['middleware' => 'auth:sanctum'], function(){
 Route::post("login",[UserController::class,'index']);
 
 ````
-
+![Image of SSH.Ref1](https://github.com/shubham504/laravel/blob/c8224eaf80cdbfdc080047837ff7883a4a4cdb18/Screenshot%20from%202022-09-15%2021-04-02.png)
 
